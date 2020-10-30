@@ -12,6 +12,7 @@ public class MagicEightBall {
 		//Scanner allows us to let user type into console
 		Scanner scan = new Scanner(System.in);
 		scan.next();
+		scan.close();
 		
 		Random randomNumber = new Random();
 		int r = randomNumber.nextInt(5);
